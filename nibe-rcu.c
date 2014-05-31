@@ -2,7 +2,7 @@
 
    Read/write data from Nibe Heat Pump
 
-   This program is distributed under the AGPL (see LICENSE file)
+   This program is distributed under the GPL v2(see LICENSE file)
 */
 
 #include <stdio.h>
