@@ -12,7 +12,7 @@
 #include <signal.h>
 #include <ftdi.h>
 #include <time.h>
-#include "common.h"
+#include "bcusdk-include/common.h"
 
 static int exitRequested = 0;
 /*
