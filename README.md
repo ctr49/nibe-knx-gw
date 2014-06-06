@@ -4,24 +4,24 @@ nibe-knx-gw
 Nibe RCU to interface with EIB/KNX
 
 
-Build:
+###Build:
 
-Prereqs:
+***Prereqs:***
 libftdi
 libeibclient
 
-in absende of a proper build procedure just compile using:
+in absence of a proper build procedure just compile using:
 gcc bcusdk-include/common.c nibe-rcu.c -lftdi -leibclient -o nibe-knx-gw
 
 
 
-Usage:
+###Usage:
 
 wip
 
 
 
-Documentation:
+###Documentation:
 
-Protocol description - see protocol.txt
-Register documentation - see register.html ( http://htmlpreview.github.io/?https://github.com/ctr49/nibe-knx-gw/blob/master/register.html ) 
+***Protocol description*** - see protocol.txt
+***Register documentation*** - see register.html ( http://htmlpreview.github.io/?https://github.com/ctr49/nibe-knx-gw/blob/master/register.html ) 
