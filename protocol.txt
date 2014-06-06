@@ -1,0 +1,41 @@
+Aus diversen schwedischen Foren zusammengeklaubt und notdürftig übersetzt:
+
+Wenn Steuerkarte die RCU adressiert mit: 
+* 00 * 14 
+dann erwartet die Steuerkarte eine Antwort. Wenn nur Parameter gelesen werden sollen, dann nur mit 06 d.h. ACK antworten. 
+Die Steuerung sendet dann, z. B.: 
+C0 00 24 11 00 04 01 25 00 05 01 10 00 06 01 42 00 07 01 66 01 E5 
+C0 ist, was Sie vielleicht cmd nennen, ist es für verschiedene Geräte, sondern für RCUn ist immer C0 aber das Display kann wie 51 sein, was bedeutet, dass die Daten eine Zeichenfolge, die auf der obersten Zeile präsentiert werden, 52 zweite Reihe 53 der dritten Reihe ist . 
+00 wird immer nach cmd gesendet. 
+24 identifiziert wer sendet die Daten, dh, die Steuerkarte in diesem Fall. 
+11 ist die Länge der Daten, die folgen, 0x11 = 17 kommt. Hinweis csum nicht inbegriffen. 
+00 ersten Bytes, bevor ein neuer Parameter ist immer der 00. 
+04 Parameter-Index, dh der Parameter 4. 
+01 = 25 für Parameter 4, 0x0125 (1/10 ° C) = 29,3 ° C
+00 05 = Parameter-Index 05. 
+01 10 = 0x0110 = 27,2 ° C
+00 05 = Parameter-Index 06 
+01 42 ... 
+00 06 ... 
+01 66 .. 
+01 = Am Ende ist es manchmal Müll.  
+E5 = csum dh XOR alles von cmd bis zum letzten Byte.
+
+
+                           CC AA AA LL PP PP PP
+                           52 00 59 12 42 72 61	19.......R.Y.Bra
+75 63 68 77 61 73 73 65 72 74 65 6D 70 2E 00 15	uchwassertemp...
+PP PP PP PP PP PP PP PP PP PP PP PP PP PP pp XX
+
+
+C = Command
+A = (sender) address
+P = Payload
+p = possibly garbage payload
+X = checksum (XOR)
+
+Adressliste:
+14 RCU 
+24 Controller (Master) 
+F5 Relaisplatine 
+F9-Anzeigen-Karten
