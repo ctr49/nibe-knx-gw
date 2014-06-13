@@ -30,6 +30,7 @@ PP PP PP PP PP PP PP PP PP PP PP PP PP PP pp XX
 
 C = Command
 A = (sender) address
+L = Payload length
 P = Payload
 p = possibly garbage payload
 X = checksum (XOR)
