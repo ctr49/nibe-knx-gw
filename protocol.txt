@@ -39,4 +39,4 @@ Adressliste:
 14 RCU 
 24 Controller (Master) 
 F5 Relaisplatine 
-F9-Anzeigen-Karten
+F9 Anzeigen-Karten
