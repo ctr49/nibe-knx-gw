@@ -1,0 +1,28 @@
+root@emblinux:/tmp# ./nibe_monitor
+
+000 CPUID                   :    89         
+001 Aussentemp              : 16.70 °C     	002 ?                       : 32768         
+003 ?                       : 32768         	004 Heizkurvenverschiebung  :    -2         
+005 Vorlauf Soll            : 20.00 °C     	006 Vorlauf Ist             : 32.30 °C     
+007 Ruecklauf               : 32.90 °C     	008 Gradminuten             :     0         
+009 ?                       :     0         	010 ?                       :     0         
+011 Kondensator aus (MAX)   : 35.10 °C     	012 Brauchwasser            : 48.70 °C     
+013 Brauchwasser?           : 44.30 °C     	014 Verd. Temp. Tho-R1      : 17.10 °C     
+015 Verd. Temp. Tho-R2      : 17.60 °C     	016 Sauggas Temp. Tho-S     : 25.20 °C     
+017 Heissgas Temp. Tho-D    : 32.00 °C     	018 Fluessigkeitstemp AMS   : 32.60 °C     
+019 Hochdruck               : 12.00 bar     	020 Niederdruck             :  9.90 bar     
+021 Atemp. am AMS Tho-A     : 16.30 °C     	022 AMS Phase Ist (A)       :  0.00         
+023 Invertertemp. Tho-IP    : 27.00 °C     	024 Verdichterlaufzeit      : 5707.50 h       
+025 Verdichterstarts        :    82         	026 ?                       :   212         
+027 ?                       :   323         	028 ?                       :     0         
+029 ?                       : 33314         	030 ?                       :    50         
+031 ?Zusatz an              :     1         	032 Zusatzheizung erlaubt   :     0         
+033 ?                       :     3         	034 Verd. Freq. regP        :     5         
+035 Min Startzeit Freq      :    70 min     	036 Minzeit konst. Freq     :     3 min     
+037 Max Diff. soll-ber      :  4.00 °C     	038 Verd. Freq. GradMin     :   126         
+039 ?                       :     0         	040 Hysterese               :     1         
+041 ?                       :    20         	042 ?                       :     0         
+043 Stopptemp. Heizen       : 17.00 °C     	044 Pumpengeschwindigkeit   :    70 %       
+045 ?                       :    14         	046 ?                       :   110         
+047 ?                       :     5         	048 ?                       :    40         
+049 Brauchwasser StartTemp  : 44.00 °C     	050 Brauchwasser StopTemp   : 50.00 °C
