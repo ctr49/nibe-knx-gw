@@ -123,7 +123,7 @@ int main(int argc, char **argv) {
                 filename = optarg;
                 break;
             default:
-                fprintf(stderr, "usage: %s [-i interface] [-v vid] [-p pid] [-b baudrate] [-w]\n", *argv);
+                fprintf(stderr, "usage: %s [-i interface] [-v vid] [-p pid] [-b baudrate] [-w] [-f configfile]\n", *argv);
                 exit(-1);
         }
     }
